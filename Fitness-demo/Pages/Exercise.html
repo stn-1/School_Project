@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercises - Fitness Website</title>
+    <link rel="stylesheet" href="./Exercise.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Fitness Website</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./Landing.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Exercise.html"
+                  >Exercises</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./BMI.html">BMI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Calories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Hero section -->
+    <section class="bg-black">
+      <div class="container py-5">
+        <div class="row align-item-center justify-content-center">
+          <div class="col-12 col-lg-6 py-5 text-center">
+            <h1 class="display-3 fw-bold text-white">GET READY FOR TRAINING</h1>
+            <a href="#part">
+              <button class="btn btn-lg btn-outline-light mt-3">
+                Get started
+              </button>
+            </a>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="./Images/Exercise.jpg"
+              alt="Fitness image"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Body part -->
+    <section class="bg-dark-subtle" id="part">
+      <h2 class="text-center pt-5 display-1">Exercises</h2>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-sm py-3">
+            <div class="card bg-dark text-white">
+              <img
+                class="card-img"
+                src="./Images/abs.jpg"
+                style="text-decoration: none"
+                alt="Card image"
+              />
+              <div
+                class="card-img-overlay bg-black opacity-50 align-content-center text-center"
+              >
+                <a
+                  href="./Exercises/Ab.html"
+                  style="text-decoration: none"
+                  class="text-white"
+                >
+                  <h2 class="display-1">Abs</h2>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm py-3">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./Images/arm.jpg" alt="Card image" />
+              <div
+                class="card-img-overlay bg-black opacity-50 align-content-center text-center"
+              >
+                <a
+                  href="./Exercises/Arm.html"
+                  style="text-decoration: none"
+                  class="text-white"
+                >
+                  <h2 class="display-1">Arms</h2>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm pb-3">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./Images/chest.jpg" alt="Card image" />
+              <div
+                class="card-img-overlay bg-black opacity-50 align-content-center text-center"
+              >
+                <a
+                  href="./Exercises/Chest.html"
+                  style="text-decoration: none"
+                  class="text-white"
+                >
+                  <h2 class="display-1">Chest</h2>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm pb-3">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./Images/legs.jpg" alt="Card image" />
+              <div
+                class="card-img-overlay bg-black opacity-50 align-content-center text-center"
+              >
+                <a
+                  href="./Exercises/Leg.html"
+                  style="text-decoration: none"
+                  class="text-white"
+                >
+                  <h2 class="display-1">Legs</h2>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./Images/back.jpg" alt="Card image" />
+              <div
+                class="card-img-overlay bg-black opacity-50 align-content-center text-center"
+              >
+                <a
+                  href="./Exercises/ShoulderBack.html"
+                  style="text-decoration: none"
+                  class="text-white"
+                >
+                  <h2 class="display-1">Back & Shoulder</h2>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

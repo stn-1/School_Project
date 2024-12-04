@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Website</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Landing.css" />
+  </head>
+  <body class="bg-dark">
+    <!-- Nav bar -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Fitness Website</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Landing.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Exercise.html">Exercises</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="BMI.html">BMI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Calories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Hero -->
+
+    <div class="card bg-dark text-white">
+      <img
+        class="card-img"
+        src="./Images/pexels-pixabay-416747.jpg"
+        id="anh"
+        alt="Card image"
+      />
+      <div
+        class="card-img-overlay bg-black opacity-50 align-content-center text-center justify-content-center"
+      >
+        <h1
+          class="display-6"
+          id="text"
+          style="
+            font-size: 24px;
+            position: relative;
+            top: 200px;
+            font-family: Arial, sans-serif;
+          "
+        >
+          “I hated every minute of training, but I said, ‘Don’t quit. Suffer now
+          and live the rest of your life as a champion.”<br />
+          – Muhammad Ali
+        </h1>
+      </div>
+    </div>
+
+    <script>
+      let anh = document.getElementById("anh"); // Lấy cái phần tử ảnh này theo id
+      let text = document.getElementById("text"); // Lấy cái phần tử chữ theo id
+      const tapanh = [
+        "./Images/pexels-pixabay-416747.jpg",
+        "./Images/pexels-anush-1229356.jpg",
+        "./Images/runningbg.jpg",
+        "./Images/pexels-alesiakozik-7289370.jpg",
+      ];
+      const tapchu = [
+        "“I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion.”<br> – Muhammad Ali",
+        "“We are what we repeatedly do. Excellence then is not an act but a habit.”<br> –Aristotele",
+        "“The body achieves what the mind believes.”<br> – Napoleon Hill",
+        "“The hard days are the best because that’s when champions are made, so if you push through, you can push through anything.”<br> – Dana Vollmer",
+      ];
+
+      function changeBackground() {
+        const randomImage = tapanh[Math.floor(Math.random() * tapanh.length)];
+
+        anh.src = randomImage;
+      }
+
+      function changeText() {
+        const randomText = tapchu[Math.floor(Math.random() * tapchu.length)];
+
+        text.innerHTML = randomText;
+      }
+
+      setInterval(() => {
+        changeBackground();
+        changeText();
+      }, 5000);
+    </script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    ​
+  </body>
+</html>
