@@ -1,0 +1,12 @@
+SV01 Nguyen Van A
+SV02 Tran Thi B
+SV0 Le Van C
+SV02 Nguyen Van Vjp
+***
+MH01 3 Lap Trinh
+MH02 2 Toan Roi Rac
+MHProVjp 3 Vat Ly
+***
+SV01 MH01 MH02
+SV02 MH01
+SV03 MH01 MH02

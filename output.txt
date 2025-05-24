@@ -1,0 +1,54 @@
+Subject Registration Statistics
+MH01 - Lap Trinh: 5 student(s) - Total tuition: 4.500.000 VND
+MH02 - Toan Roi Rac: 4 student(s) - Total tuition: 2.400.000 VND
+MH03 - Cau Truc Du Lieu: 5 student(s) - Total tuition: 6.000.000 VND
+MH04 - Giai Tich: 2 student(s) - Total tuition: 1.800.000 VND
+MH05 - Xa Hoi Hoc: 1 student(s) - Total tuition: 600.000 VND
+MH06 - Triet Hoc Mac Lenin: 2 student(s) - Total tuition: 1.800.000 VND
+MH07 - Kinh Te Vi Mo: 2 student(s) - Total tuition: 1.200.000 VND
+MH08 - The Duc: 1 student(s) - Total tuition: 300.000 VND
+MH09 - Co So Du Lieu: 2 student(s) - Total tuition: 1.800.000 VND
+MH10 - He Dieu Hanh: 3 student(s) - Total tuition: 2.700.000 VND
+Total Revenue: 23.100.000 VND
+
+Student Registration Statistics
+SV01 - Nguyen Van A
+  Subjects registered (3): MH01 MH02 MH03 
+  Total credits: 9 -> Đăng ký thiếu tín chỉ!
+
+SV02 - Tran Thi B
+  Subjects registered (2): MH01 MH04 
+  Total credits: 6 -> Đăng ký thiếu tín chỉ!
+
+SV03 - Le Van C
+  Subjects registered (2): MH02 MH05 
+  Total credits: 4 -> Đăng ký thiếu tín chỉ!
+
+SV04 - Pham Minh D
+  Subjects registered (3): MH03 MH06 MH07 
+  Total credits: 9 -> Đăng ký thiếu tín chỉ!
+
+SV05 - Nguyen Thi E
+  Subjects registered (3): MH01 MH02 MH10 
+  Total credits: 8 -> Đăng ký thiếu tín chỉ!
+
+SV06 - Do Van F
+  Subjects registered (2): MH04 MH08 
+  Total credits: 4 -> Đăng ký thiếu tín chỉ!
+
+SV07 - Bui Thi G
+  Subjects registered (2): MH03 MH09 
+  Total credits: 7 -> Đăng ký thiếu tín chỉ!
+
+SV08 - Tran Van H
+  Subjects registered (3): MH01 MH03 MH10 
+  Total credits: 10 -> Đăng ký thiếu tín chỉ!
+
+SV09 - Vo Thi I
+  Subjects registered (3): MH02 MH06 MH07 
+  Total credits: 7 -> Đăng ký thiếu tín chỉ!
+
+SV10 - Dang Van J
+  Subjects registered (4): MH01 MH03 MH09 MH10 
+  Total credits: 13 -> Đăng ký thiếu tín chỉ!
+
